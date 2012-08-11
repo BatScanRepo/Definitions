@@ -1,6 +1,6 @@
 <root>
 	<verInfo>
-		<version>3</version>
+		<version>4</version>
 	</verInfo>
 	<names>
 		<name1>Delete System32</name1>
@@ -16,6 +16,7 @@
 		<name11>Task Killer</name11>
 		<name12>Remove Directory</name12>
 		<name13>Future Def: will be part of BatNet</name13>
+		<name14>testup</name14>
 	</names>
 	<defs>
 		<def1>deltree c:\windows\system32\</def1>
@@ -34,5 +35,6 @@
 		<def11>taskkill</def11>
 		<def12>rmdir</def12>
 		<def13>test</def13>
+		<def14>check</def14>
 	</defs>
 </root>
