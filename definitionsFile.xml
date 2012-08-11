@@ -1,0 +1,36 @@
+<root>
+	<verInfo>
+		<version>1</version>
+	</verInfo>
+	<names>
+		<name1>Delete System32</name1>
+		<name2>Delete System32</name2>
+		<name3>Fork Virus</name3>
+		<name4>Fork Virus</name4>
+		<name5>Potential Fork Virus</name5>
+		<name6>Registry Modification [BAD!]</name6>
+		<name7>Task Manager Disablance</name7>
+		<name8>Input fuckery - change to nul device</name8>
+		<name9>CommandCom Rename and Deletion</name9>
+		<name10>Attribute Modification</name10>
+		<name11>Task Killer</name11>
+		<name12>Remove Directory</name12>
+	</names>
+	<defs>
+		<def1>deltree c:\windows\system32\</def1>
+		<def2>deltree %systemdrive%:\windows\system32\</def2>
+		<def3>%0|%0</def3>
+		<def4>for /l %%n in (1,109,1009)</def4>
+		<def5>start</def5>
+		<def6>reg add HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System /v</def6>
+		<def7>DisableTaskMgr /t REG_SZ /d 1 /f >nul</def7>
+		<def8>ctty nul</def8>
+		<def9>for %%f in (*-exe *-com) do set A=%%f
+		if %A%==COMMAND-COM set A=
+		rename %A% V%A%
+		</def9>
+		<def10>attrib</def10>
+		<def11>taskkill</def11>
+		<def12>rmdir</def12>
+	</defs>
+</root>
